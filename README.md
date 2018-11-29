@@ -14,8 +14,8 @@ docker stop $(docker ps -aq)
 ```
 docker rm $(docker ps -aq)
 ```
-### Docker start with logs 
+### Docker remove all volumes 
 ```
-docker start -ai container_name
+docker volume prune
 ```
  
