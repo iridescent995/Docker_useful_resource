@@ -6,3 +6,16 @@ All docker useful Commands and resource
 ```
 docker start -ai container_name
 ```
+### Docker start with logs 
+```
+docker stop $(docker ps -aq)
+```
+### Docker start with logs 
+```
+docker start -ai container_name
+```
+### Docker start with logs 
+```
+docker start -ai container_name
+```
+ 
