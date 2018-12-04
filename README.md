@@ -30,3 +30,7 @@ docker ps -aqf "name=<container name>"
 ```
 docker commit <container name> <new image name>
 ```
+### Docker rename image 
+```
+docker tag <old image name> <new image name>
+```
