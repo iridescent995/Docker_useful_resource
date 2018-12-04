@@ -18,4 +18,11 @@ docker rm $(docker ps -aq)
 ```
 docker volume prune
 ```
- 
+### Docker find container name from image name 
+```
+docker ps --format '{{.Image}}' | grep "***image name***"
+```
+### Docker find container name from image name 
+```
+
+```
