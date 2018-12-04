@@ -20,9 +20,13 @@ docker volume prune
 ```
 ### Docker find container name from image name 
 ```
-docker ps --format '{{.Image}}' | grep "***image name***"
+docker ps --format '{{.Image}}' | grep "<image name>"
 ```
 ### Docker find container id from container name 
 ```
-docker ps -aqf "name=~~~container name~~~"
+docker ps -aqf "name=<container name>"
+```
+### Docker form image from a container 
+```
+docker commit <container name> <new image name>
 ```
