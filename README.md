@@ -22,7 +22,7 @@ docker volume prune
 ```
 docker ps --format '{{.Image}}' | grep "***image name***"
 ```
-### Docker find container name from image name 
+### Docker find container id from container name 
 ```
-
+docker ps -aqf "name=~~~container name~~~"
 ```
