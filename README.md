@@ -26,7 +26,7 @@ docker ps --format '{{.Image}}' | grep "<image name>"
 ```
 docker ps -aqf "name=<container name>"
 ```
-### Docker form image from a container 
+### Docker form an image from a container 
 ```
 docker commit <container name> <new image name>
 ```
