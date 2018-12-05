@@ -14,7 +14,7 @@ docker stop $(docker ps -aq)
 ```
 docker rm $(docker ps -aq)
 ```
-### Docker remove all volumes 
+### Docker remove all unused volumes 
 ```
 docker volume prune
 ```
