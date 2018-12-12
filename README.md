@@ -20,7 +20,7 @@ docker volume prune
 ```
 ### Docker remove all images
 ```
-docker rmi -f $(docker images -a -q)
+docker rmi -f $(docker images -aq)
 ```
 ### Docker find container name from image name 
 ```
