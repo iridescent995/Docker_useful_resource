@@ -18,6 +18,10 @@ docker rm $(docker ps -aq)
 ```
 docker volume prune
 ```
+### Docker remove all containers with their volumes.
+```
+docker rm -vf $(docker ps -a -q)
+```
 ### Docker remove all images
 ```
 docker rmi -f $(docker images -aq)
